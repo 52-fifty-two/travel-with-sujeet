@@ -14,8 +14,8 @@ const App: FC = () => {
     <Router>
       <SideMenu />
       <Routes>
-        <Route path="/travel-with-sujeet/gallery" element={<Gallery />} />
-        <Route path="/travel-with-sujeet/about" element={<About />} />
+        <Route path="/gallery" element={<Gallery />} />
+        <Route path="/about" element={<About />} />
       </Routes>
     </Router>
   );

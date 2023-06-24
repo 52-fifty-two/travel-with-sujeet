@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Philosopher&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  html,
+  body {
+    height: 100%;
+  }
+  body {
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  body::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+  }
+
+  img,
+  picture,
+  video,
+  canvas,
+  svg {
+    display: block;
+    max-width: 100%;
+  }
+  img {
+    display: block;
+  }
+
+  ul,
+  ol,
+  li {
+    padding: 0;
+    margin: 0;
+  }
+  input,
+  button,
+  textarea,
+  select {
+    font: inherit;
+  }
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    overflow-wrap: break-word;
+  }
+
+  #root,
+  #__next {
+    isolation: isolate;
+  }
+  .smooth-transition {
+    transition: all ease-in-out 0.3s;
+  }
+
+  .show-menu {
+    display: flex;
+    position: fixed !important;
+    margin-top: 0;
+    margin-left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(5px);
+    transform: translate(50%, 0);
+    padding: 1rem;
+    overflow-x: hidden;
+    z-index: 2;
+    font-weight: 600;
+    color: black;
+    height: 100%;
+  }
+
+  ul.pagination {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding: 2rem;
+  }
+  .selected a {
+    color: rgb(37, 99, 235);
+  }
+  .card-zoom {
+    @apply relative flex items-center justify-center m-3 overflow-hidden  h-60 rounded-2xl sm:w-52 md:w-80 lg:w-60;
+  }
+  .card-zoom-image {
+    @apply absolute w-full h-full transition-all duration-500 ease-in-out transform shadow-sm cursor-pointer object-cover object-center;
+  }
+  .card-zoom:hover .card-zoom-image {
+    @apply scale-150;
+  }
+}
+@media screen and (max-width: 640px) {
+  ul.pagination {
+    font-size: 1rem;
+    gap: 1rem;
+  }
+}

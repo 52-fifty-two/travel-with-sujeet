@@ -23,11 +23,12 @@
     "tailwind-scrollbar-hide": "^1.1.7",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "/gallery",
+  "homepage": "https://powerfist01.github.io/gallery",
   "scripts": {
     "start": "craco start && postcss src/index.css -o public/index.css",
     "build": "craco build",
-    "deploy": "gh-pages -d build -r https://github.com/powerfist01/travel-with-sujeet",
+    "predeploy": "craco run build",
+    "deploy": "gh-pages -d build",
     "test": "craco test",
     "eject": "react-scripts eject"
   },

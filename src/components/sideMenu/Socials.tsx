@@ -1,11 +1,12 @@
 import Github from '../../assets/images/socials/github.svg'
 import Linkedin from '../../assets/images/socials/linkedin.svg'
 import Portfolio from '../../assets/images/socials/portfolio.png'
+
 const Socials = () => {
   return (
     <section className="flex flex-row gap-3">
       <a
-        href="https://github.com/powerfist01/travel-with-sujeet"
+        href="https://github.com/powerfist01/"
         target="_blank"
         rel="noopener noreferrer"
       >

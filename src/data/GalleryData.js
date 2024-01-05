@@ -18,6 +18,12 @@ import ImgSeventeen from '../assets/images/gallery/image-17.jpg'
 import ImgEighteen from '../assets/images/gallery/image-18.jpg'
 import ImgNineteen from '../assets/images/gallery/image-19.jpg'
 import ImgTwenty from '../assets/images/gallery/image-20.jpg'
+import ImgTwentyOne from '../assets/images/gallery/image-21.jpg'
+import ImgTwentyTwo from '../assets/images/gallery/image-22.jpg'
+import ImgTwentyThree from '../assets/images/gallery/image-23.jpg'
+import ImgTwentyFour from '../assets/images/gallery/image-24.jpg'
+import ImgTwentyFive from '../assets/images/gallery/image-25.jpg'
+import ImgTwentySix from '../assets/images/gallery/image-26.jpg'
 
 const GalleryData = [
   { id: 1, src: ImgOne, alt: 'India' },
@@ -40,5 +46,11 @@ const GalleryData = [
   { id: 18, src: ImgEighteen, alt: 'India' },
   { id: 19, src: ImgNineteen, alt: 'India' },
   { id: 20, src: ImgTwenty, alt: 'India' },
+  { id: 21, src: ImgTwentyOne, alt: 'India' },
+  { id: 22, src: ImgTwentyTwo, alt: 'India' },
+  { id: 23, src: ImgTwentyThree, alt: 'India' },
+  { id: 24, src: ImgTwentyFour, alt: 'India' },
+  { id: 25, src: ImgTwentyFive, alt: 'India' },
+  { id: 26, src: ImgTwentySix, alt: 'India' },
 ]
 export default GalleryData

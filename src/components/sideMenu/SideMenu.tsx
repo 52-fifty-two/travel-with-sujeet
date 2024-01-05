@@ -59,15 +59,9 @@ const SideMenu = () => {
         >
           About
         </NavLink>
+        
         <Socials />
-        <a
-          className="text-sm"
-          href="https://github.com/powerfist01/travel-with-sujeet"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Made with ❤️ by Sujeet
-        </a>
+        <span className="text-sm">Made with ❤️ by Sujeet</span>
       </nav>
     </header>
   )

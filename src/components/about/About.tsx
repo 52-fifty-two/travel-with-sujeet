@@ -6,10 +6,12 @@ import ImgFour from '../../assets/images/gallery/image-4.jpg'
 const About = () => {
   return (
     <article className="flex flex-col min-h-screen col-span-2 items-center p-5">
-      <section className="flex flex-col items-center mt-10 text-2xl gap-5 text-slate-600">
-        <h2 className="text-5xl text-center uppercase text-black">About</h2>
+      <section className="flex flex-col items-center mt-20 text-2xl gap-5 text-slate-600">
+        <h2 className="text-4xl text-center text-black">About me</h2>
         <p className="text-base  sm:text-lg ">
-        India is a country that evokes a sense of wonder and adventure, offering an enchanting blend of diverse landscapes, rich history, and vibrant culture. From the snow-capped peaks of the Himalayas to the sun-kissed beaches of Goa, India's geographical diversity is unparalleled. As you traverse this vast nation, you'll be captivated by its historical marvels, such as the awe-inspiring Taj Mahal and the ancient caves of Ellora. India's cultural tapestry is equally mesmerizing, with bustling bazaars, colorful festivals like Holi, and traditional dance forms that embody grace and storytelling. Seekers of spiritual enlightenment will find solace in the sacred city of Varanasi and the serene ashrams of Rishikesh. Indulge your taste buds in the tantalizing array of flavors offered by India's cuisine, from the aromatic biryanis of Hyderabad to the fiery curries of Rajasthan. Nature lovers will be enthralled by the country's wildlife sanctuaries and national parks, where you can spot majestic tigers and roam the picturesque backwaters of Kerala. Embarking on a journey through India is an immersive experience that will leave an indelible mark on your soul, offering a glimpse into a world of vibrant colors, ancient traditions, and warm hospitality.
+
+          <h1>Hey there! I'm Sujeet, the face behind Travel with Sujeet.</h1> <br />
+          I am a travel blogger and photographer based in India. I love to travel and explore new places. I have been travelling since my childhood and have been to many places in India. I started this blog to share my travel experiences and help people to plan their trips. I hope you enjoy going through my blog and find it useful. <br />
         </p>
       </section>
       <section className="flex flex-col sm:flex-row gap-1 p-8 ">

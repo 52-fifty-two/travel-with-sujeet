@@ -1,7 +1,7 @@
 {
   "name": "travel-with-sujeet",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@craco/craco": "^5.9.0",
     "@headlessui/react": "^1.5.0",
@@ -23,11 +23,11 @@
     "tailwind-scrollbar-hide": "^1.1.7",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://powerfist01.github.io/gallery",
+  "homepage": "https://powerfist01.github.io/travel-with-sujeet",
   "scripts": {
     "start": "craco start && postcss src/index.css -o public/index.css",
     "build": "craco build",
-    "predeploy": "craco run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "test": "craco test",
     "eject": "react-scripts eject"

@@ -23,7 +23,7 @@
     "tailwind-scrollbar-hide": "^1.1.7",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://powerfist01.github.io/travel-with-sujeet",
+  "homepage": "https://travelwithsujeet.netlify.com",
   "scripts": {
     "start": "craco start && postcss src/index.css -o public/index.css",
     "build": "craco build",
@@ -54,6 +54,6 @@
     "autoprefixer": "^9.8.8",
     "postcss": "^8.4.16",
     "postcss-loader": "^4.1.0",
-    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17"
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2"
   }
 }
